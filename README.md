@@ -1,6 +1,6 @@
 # reddit-lite
 
-Static site project to consume and present data from reddit.com
+Static site to consume and present data from reddit.com
 
 install package
 --
