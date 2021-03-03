@@ -1,0 +1,33 @@
+#list-wrapper {
+  max-width: 600px;
+  margin-top: 88px;
+  margin-left: 322px;
+}
+
+@media only screen and (max-width: 1025px) {
+  #list-wrapper {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+#item-wrapper {
+  border: 1px solid rgba(172, 172, 172, 1);
+  padding: 8px;
+  margin: 8px;
+  background-color: white;
+  font-size: small;
+}
+
+#item-wrapper:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#item-wrapper:hover #title {
+  color: blue;
+}
+
+#title {
+  font-weight: bold;
+}
